@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Deportes"
+    android:background="@drawable/fondo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/atrasdeportes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bordes"
+                android:src="@drawable/flechaatras"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="140dp"
+                android:layout_marginStart="15dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/lol"
+                android:src="@drawable/logoshalom"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:id="@+id/vistadeportes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/deportes"
+                android:background="@drawable/bordes"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="20dp"/>
+
+            <ImageButton
+                android:id="@+id/fifa19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bordes"
+                android:scaleType="centerCrop"
+                android:src="@drawable/fifa19"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"/>
+
+            <ImageButton
+                android:id="@+id/nba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bordes"
+                android:scaleType="centerCrop"
+                android:src="@drawable/nba"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"/>
+
+            <ImageButton
+                android:id="@+id/wwe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bordes"
+                android:scaleType="centerCrop"
+                android:src="@drawable/wwe"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"/>
+
+            <ImageButton
+                android:id="@+id/tenis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bordes"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tennis"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

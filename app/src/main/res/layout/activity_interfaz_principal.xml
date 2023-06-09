@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InterfazPrincipal"
+    android:background="@drawable/fondo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/histori"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:src="@drawable/historial"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="20dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cerrarsecion"
+                    android:background="#00FFFFFF"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginStart="180dp"
+                    android:layout_marginEnd="20dp"
+                    android:id="@+id/cerrarcesion"/>
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/vistanombre"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/bordes"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textColorHint="#757676"
+                android:textSize="22sp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/vistasaldo"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/bordes"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textColorHint="#757676"
+                android:textSize="22sp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="25dp"/>
+
+            <ImageButton
+                android:id="@+id/carrera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:scaleType="centerCrop"
+                android:src="@drawable/carreras"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"/>
+
+
+            <ImageButton
+                android:id="@+id/estrategia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:scaleType="centerCrop"
+                android:src="@drawable/estrategia"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"/>
+
+
+            <ImageButton
+                android:id="@+id/puzzles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:scaleType="centerCrop"
+                android:src="@drawable/puzzles"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"/>
+
+
+            <ImageButton
+                android:id="@+id/deportes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:scaleType="centerCrop"
+                android:src="@drawable/deportes"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

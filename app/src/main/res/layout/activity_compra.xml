@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".Compra">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/atrascompra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bordes"
+                android:src="@drawable/flechaatras"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="140dp"/>
+
+            <ImageView
+                android:id="@+id/lol"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/logoshalom"
+                android:layout_marginTop="10dp"/>
+
+
+
+
+                <TextView
+                    android:id="@+id/textoa"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="380dp"
+                    android:background="@drawable/bordes"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"/>
+
+
+
+
+            <TextView
+                android:id="@+id/textob"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/bordes"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/compra"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#1364B7"
+                android:text="COMPRAR"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginTop="20dp">
+            </Button>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
